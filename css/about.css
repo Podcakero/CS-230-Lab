@@ -1,0 +1,15 @@
+main 
+{
+    font-family: 'Consolas', Courier, monospace;
+    text-align: center;
+}
+
+p
+{
+    color: black;
+}
+
+.about
+{
+    background: rgba(228, 167, 225, 0.651);
+}
