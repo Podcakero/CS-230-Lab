@@ -6,10 +6,65 @@ main
 
 p
 {
-    color: black;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+img
+{
+    height: 150px;
+    width: 200px;
+}
+
+h2
+{
+    font-size: 25px;
 }
 
 .about
 {
     background: rgba(228, 167, 225, 0.651);
+    padding:8px;
+    color: black;
+    box-shadow: 4px 4px 4px 4px #b3b3b3f5;
+}
+
+.about-text
+{
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+.card
+{
+    box-shadow: 4px 4px 4px 4px #b3b3b3f5;
+    padding: 8px;
+}
+
+.column
+{
+    float: left;
+    margin-right: 16px;
+    margin: 10px;
+    width: 23%;
+}
+
+#CEO
+{
+    background: fuchsia;
+}
+
+#CFO
+{
+    background: teal;
+}
+
+#CTO
+{
+    background: rgb(155, 0, 0);
+}
+
+#LM
+{
+    background: pink;
 }
