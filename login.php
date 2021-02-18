@@ -47,8 +47,8 @@ require 'includes/header.php';
 
                     <input type="password" id="inputPassword" class="form-control" name="pwd" placeholder="Password" required>
 
-                    <button class="btn btn-lg btn-outline-primary btn-block" name="signup-submit" type="submit">
-                        Sign in
+                    <button class="btn btn-lg btn-outline-primary btn-block" name="login-submit" type="submit">
+                        Log in
                     </button>
 
                     <p class="mt-5 mb-3 text-muted">
