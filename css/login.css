@@ -1,4 +1,5 @@
-.bg-cover {
+.bg-cover 
+{
     background-image: url("../images/main-bg-1.jpg");
     height: 100vh;
     background-position: center;
@@ -7,8 +8,27 @@
     background-repeat: no-repeat; 
 }
 
-.center-me {
+.center-me 
+{
     display: flex;
     justify-content: center;
     padding: 40px;
+}
+
+.c_image
+{
+    height: 200px;
+    width: 200px;
+}
+
+.form-signin
+{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+input
+{
+    margin-bottom: 10px;
 }
