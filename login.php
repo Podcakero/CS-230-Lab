@@ -5,7 +5,7 @@ require 'includes/header.php';
 <main>
     <link rel="stylesheet" href="css/login.css">
 
-    <div class="background-cover">
+    <div class="bg-cover">
         <div class="container">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -33,6 +33,9 @@ require 'includes/header.php';
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        </div>
+
+        <div class="h-40 center-me">
         </div>
     </div>
 </main>
