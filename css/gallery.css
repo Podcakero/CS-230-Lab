@@ -1,0 +1,14 @@
+.center-me
+{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+#gallery-display
+{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+}
