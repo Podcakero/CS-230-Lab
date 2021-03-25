@@ -41,7 +41,7 @@ if (isset($_POST['prof-submit']))
         $sql = "UPDATE profiles SET profpic = '$destination' WHERE uname = '$uname'";
 
         mysqli_query($conn, $sql);
-        move_uploaded_file($file_tmp_name, $destination);
+        move_uploaded_file($file_tmp_name, '../'.$destination);
         header("Location: ../profile.php?success=uploadSuccessful");
         exit();
     }
